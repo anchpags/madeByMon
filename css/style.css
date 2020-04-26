@@ -181,16 +181,39 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 HH				Header
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+ul.hero-nav{
+    color: #2b2b2b;
+    font-size: 13px;
+    padding: 41.4px 0px;
+}
+
+ul.hero-nav li{
+    color: #2b2b2b;
+    font-size: 20px;
+    padding: 0px 0px 17.5px;
+    text-transform: uppercase;
+    font-weight: 900;
+} 
+
+ul.hero-nav a{
+    color: #2b2b2b;
+    font: 20px;
+    padding: 0px 0px 17.5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
 .header{
 	height: 100vh;
-	background: linear-gradient(50deg, rgb(81, 255, 182), rgb(87, 160, 255));
-    padding: 45px 0px;
+    background: #FCF5C7;
+    padding: 5px 0px;
 }
 #logo {
-	font-size: 80px;
+	font-size: 50px;
 	letter-spacing: 10px;
 	font-weight: 100;
-	color: white;
+	color:#000;
 	display: inline-block;
 	padding: 0px;
     float: left;
@@ -228,7 +251,7 @@ a#logo:hover{
 	border: none;
 	outline: none;
 	display: inline-block;
-	color: #fff;
+	color: #EC4067;
 	border-radius: 0px;
 	cursor: pointer;
 	background-color: transparent;
@@ -247,16 +270,21 @@ a#logo:hover{
       box-shadow: 0px 0px 10px #39c;
 }
 .starting img{
-	margin-top: 110px;
+	margin-top: 50px;
 }
 .banner-text{
     margin-top: 100px;
 }
 .starting p{
 	padding: 20px 0px;
-	color: #fff;
-	line-height: 30px;
+	color: #000;
+    line-height: 30px;
 }
+
+.starting h2 {
+    color: #000;
+}
+
 .btn.btn-download {
     padding: 10px;
     background: white;
